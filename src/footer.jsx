@@ -16,7 +16,7 @@ export default function Footer() {
         <a className="link link-hover">Privacy policy</a>
         <a className="link link-hover">Cookie policy</a>
       </nav>
-      <form>
+      <form data-netlify="true">
         <h6 className="footer-title">Newsletter</h6>
         <fieldset className="form-control w-80">
           <label className="label">
@@ -28,7 +28,9 @@ export default function Footer() {
               placeholder="tu@mail.it"
               className="input join-item"
             />
-            <button className="btn btn-primary join-item">Iscrivimi</button>
+            <button type="submit" className="btn btn-primary join-item">
+              Iscrivimi
+            </button>
           </div>
         </fieldset>
       </form>
