@@ -1,0 +1,80 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+  color: var(--black);
+
+  /* Colors */
+  --jobed-orange: #ff7e4e;
+  --jobed-yellow: #ffa41b;
+  --jobed-blue: #5a75bc;
+  --jobed-green: #04a99f;
+  --white: #ffffff;
+  --black: #140d0b;
+  --grey: #d9d9d9;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+
+  background-color: var(--white);
+}
+
+.primary-button {
+  background-color: var(--jobed-orange);
+  padding: 0.75rem 1.75rem;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+
+  color: var(--white);
+  font-weight: bold;
+}
+
+.primary-button:hover {
+  background-color: var(--jobed-yellow);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.navbar-link-container {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.hero {
+  height: 75vh;
+  background-color: var(--jobed-blue);
+  display: flex;
+  padding: 3rem 5rem;
+  align-items: center;
+}
+
+.hero-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-right: 9rem;
+}
+
+.hero-text {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.hero-image {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 3rem;
+}
