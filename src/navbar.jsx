@@ -1,5 +1,3 @@
-import { FaSun, FaMoon } from "react-icons/fa";
-
 export default function Navbar() {
   return (
     <div className="navbar bg-base-100">
