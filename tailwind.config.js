@@ -23,7 +23,6 @@ export default {
           "primary-content": "#FFFFFF",
         },
       },
-      "dark",
     ],
   },
 };
