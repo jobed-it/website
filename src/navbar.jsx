@@ -10,13 +10,6 @@ export default function Navbar() {
       </div>
       <div className="navbar-end">
         <a className="btn btn-ghost">About us</a>
-        <label className="swap swap-rotate">
-          {/* this hidden checkbox controls the state */}
-          <input type="checkbox" className="theme-controller" value="dark" />
-
-          <FaSun className="swap-off" />
-          <FaMoon className="swap-on" />
-        </label>
       </div>
     </div>
   );
