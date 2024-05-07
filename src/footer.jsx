@@ -16,7 +16,7 @@ export default function Footer() {
         <a className="link link-hover">Privacy policy</a>
         <a className="link link-hover">Cookie policy</a>
       </nav>
-      <form data-netlify="true">
+      <form data-netlify="true" name="contact-footer">
         <h6 className="footer-title">Newsletter</h6>
         <fieldset className="form-control w-80">
           <label className="label">

@@ -7,7 +7,7 @@ export default function Hero() {
         <strong> Risparmia 300€ sul tuo affitto mensile</strong> e trova il
         lavoro dei tuoi sogni!
       </p>
-      <form className="join" data-netlify="true">
+      <form className="join" name="contact-hero" data-netlify="true">
         <input
           type="text"
           className="input join-item"
