@@ -20,6 +20,7 @@ body {
 .navbar {
   display: flex;
   border-bottom: 1px solid var(--black);
+  height: 10vh;
 }
 
 .navbar > div {
@@ -71,4 +72,18 @@ body {
 
 .navbar-button:hover {
   background-color: var(--jobed-yellow);
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--jobed-yellow);
+}
+
+.hero > h1 {
+  font-size: 8em;
+  font-family: "bd-orange-variable";
+  font-variation-settings: "wght" 400;
 }
