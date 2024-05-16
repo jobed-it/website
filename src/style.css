@@ -1,0 +1,89 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+  color: var(--black);
+
+  /* Colors */
+  --jobed-orange: #ff7e4e;
+  --jobed-yellow: #ffa41b;
+  --jobed-blue: #5a75bc;
+  --jobed-green: #04a99f;
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #d9d9d9;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  border-bottom: 1px solid var(--black);
+  height: 10vh;
+}
+
+.navbar > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 0;
+}
+
+.navbar > :first-child,
+.navbar > :last-child {
+  width: 25%;
+}
+
+.navbar-links-container {
+  width: 50%;
+  border-right: 1px solid var(--black);
+  border-left: 1px solid var(--black);
+}
+
+.navbar-links-container > * {
+  padding: 0 1.25em;
+  text-decoration: none;
+  color: var(--black);
+  font-size: large;
+}
+
+.navbar-links-container > *:hover {
+  text-decoration: underline;
+  color: var(--jobed-yellow);
+}
+
+.navbar-links-container > :last-child {
+  padding-right: 0;
+}
+
+.navbar-links-container > :first-child {
+  padding-left: 0;
+}
+
+.navbar-button {
+  font-weight: bold;
+  padding: 1em 3em;
+  background-color: var(--black);
+  color: var(--white);
+  border-radius: 2em;
+  text-decoration: none;
+}
+
+.navbar-button:hover {
+  background-color: var(--jobed-yellow);
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--jobed-yellow);
+}
+
+.hero > h1 {
+  font-size: 8em;
+  font-family: "bd-orange-variable";
+  font-variation-settings: "wght" 400;
+}
