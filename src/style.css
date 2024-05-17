@@ -74,7 +74,7 @@ body {
   background-color: var(--jobed-yellow);
 }
 
-.hero {
+.hero-work-in-progress {
   height: 90vh;
   display: flex;
   align-items: center;
@@ -82,8 +82,39 @@ body {
   background-color: var(--jobed-yellow);
 }
 
-.hero > h1 {
+.hero-work-in-progress > h1 {
   font-size: 8em;
   font-family: "bd-orange-variable";
   font-variation-settings: "wght" 400;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: "bd-orange-variable";
+  font-variation-settings: "wght" 400;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4em 0;
+}
+
+.hero > * {
+  width: 40%;
+}
+
+.hero > p {
+  width: 90%;
 }
