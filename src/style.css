@@ -150,3 +150,29 @@ p {
 .profile-card > p {
   font-size: large;
 }
+
+footer {
+  background-color: var(--jobed-green);
+  color: var(--white);
+  padding: 6em 5em;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1em;
+}
+
+.footer-link-container {
+}
+
+.footer-link-container > a {
+  display: block;
+  color: var(--white);
+  text-decoration: none;
+  font-size: large;
+}
+
+.footer-link-container > h3 {
+  font-size: x-large;
+}
